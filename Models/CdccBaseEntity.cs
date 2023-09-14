@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Backend.Models;
+namespace CDCC_Backend.Models;
 
 public class CdccBaseEntity
 {

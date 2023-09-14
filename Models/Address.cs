@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Backend.Models;
+namespace CDCC_Backend.Models;
 
 public class Address : CdccBaseEntity
 {

@@ -1,4 +1,4 @@
-using Backend.Data;
+using CDCC_Backend.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Diagnostics;
 
@@ -28,14 +28,14 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Seed the data here
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
-    var dbContext = services.GetRequiredService<ApplicationDbContext>();
-    
-    SeedDataHelper.SeedData(dbContext);
-}
+// // Seed the data here
+// using (var scope = app.Services.CreateScope())
+// {
+//     var services = scope.ServiceProvider;
+//     var dbContext = services.GetRequiredService<ApplicationDbContext>();
+//     
+//     SeedDataHelper.SeedData(dbContext);
+// }
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

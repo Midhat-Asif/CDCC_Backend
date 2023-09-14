@@ -1,6 +1,6 @@
-using Backend.Models;
+using CDCC_Backend.Models;
 
-namespace Backend.Data;
+namespace CDCC_Backend.Data;
 
 public static class SeedDataHelper
 {

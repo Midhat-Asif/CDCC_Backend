@@ -1,7 +1,7 @@
-using Backend.Models;
+using CDCC_Backend.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Backend.Data
+namespace CDCC_Backend.Data
 {
     public class ApplicationDbContext : DbContext
     {

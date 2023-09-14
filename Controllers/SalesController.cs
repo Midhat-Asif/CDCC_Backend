@@ -2,8 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
-using Backend.Data; // Replace with your actual DbContext namespace
-using Backend.Models; // Replace with your actual model namespace
+using CDCC_Backend.Data; // Replace with your actual DbContext namespace
+using CDCC_Backend.Models; // Replace with your actual model namespace
 using Microsoft.AspNetCore.Cors;
 
 
