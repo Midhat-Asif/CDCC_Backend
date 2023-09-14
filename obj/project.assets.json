@@ -4407,11 +4407,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/midhat.asif/Projects/CDCC/Backend/Backend.csproj",
+      "projectUniqueName": "/Users/midhat.asif/Projects/CDCC_multirepo/CDCC_Backend/Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "/Users/midhat.asif/Projects/CDCC/Backend/Backend.csproj",
+      "projectPath": "/Users/midhat.asif/Projects/CDCC_multirepo/CDCC_Backend/Backend.csproj",
       "packagesPath": "/Users/midhat.asif/.nuget/packages/",
-      "outputPath": "/Users/midhat.asif/Projects/CDCC/Backend/obj/",
+      "outputPath": "/Users/midhat.asif/Projects/CDCC_multirepo/CDCC_Backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/midhat.asif/.nuget/NuGet/NuGet.Config"
