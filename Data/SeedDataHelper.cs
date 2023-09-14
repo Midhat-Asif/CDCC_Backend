@@ -29,6 +29,7 @@ public static class SeedDataHelper
             };
 
             context.Users.AddRange(users);
+            context.SaveChanges();
         }
 
         if (!context.Addresses.Any())
@@ -56,7 +57,7 @@ public static class SeedDataHelper
             };
 
             context.Addresses.AddRange(addresses);
+            context.SaveChanges();
         }
-        context.SaveChanges();
     }
 }
