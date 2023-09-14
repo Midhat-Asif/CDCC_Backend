@@ -1,0 +1,10 @@
+.DS_Store
+**/obj/
+**/bin/
+**/node_modules
+**/.vscode/
+**/.vs/
+**/.idea/
+**/react-app-env.d.ts
+Frontend/build
+.vscode/
